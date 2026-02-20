@@ -1,0 +1,8 @@
+{
+  "name": "Codespace Browser",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "postCreateCommand": "bash /home/vnc/startup.sh"
+}
